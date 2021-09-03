@@ -1,0 +1,115 @@
+/*resetarea proprietatilor default ale browselor
+se scriu la inceputul fis. css - va fi folosit pt
+fiecare site*/
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+}
+header {
+    background-color: rgb(54, 54, 54);
+    text-align: center;
+    padding: 1em;
+}
+header li {
+    display: inline;
+}
+/*se stilizeaza ancora , nu lista cu totul pt a modifica
+cuvintele din lista*/
+a {
+    color:rgb(200, 200, 200);
+    text-decoration: none;
+    padding-right: 1.5em;
+    margin-right: 1.5em;
+    /*face tranzitie la ancora sau link atunci cand punem
+    cursorul pe el.*/
+    transition-property: font-size;
+    transition-duration: 1s;
+}
+/*se schimba stilul ancorei sau linkului atunci cand punem
+cursorul pe el. Este nevoie de acest hover ca sa functioneze
+ tranzitiile*/
+a:hover {
+    color: sandybrown;
+    font-size: 1.1em;
+}
+article {
+    background-color: rgb(210, 210, 210);
+    text-align: center;
+    padding-bottom: 5em;
+}
+/*pentru animatie - numele animatiei este colorize*/
+@keyframes colorize {
+    from {
+        color: black;
+    }
+    to {
+        color: orangered;
+    }
+}
+h1 {
+    font-family: monospace;
+    text-align: center;
+    padding: 2em;
+    /*mai jos treecem stilizarea animatiei pentru h1 pt ca
+    pe h1 vrem sa aplicam stilizarea*/
+    animation-name: colorize;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+img {
+    display: inline;
+    /*height-ul de mai jos reprezinta dimensiunea imaginii raortat
+    la pagina. cand vom micsora browserul, se va incadra in pagina
+    - mai puteam face si cu height: 20em; */
+    height: 45vh;
+    transform: rotate(-10deg)
+    transition-duration: 1s;
+    cursor: pointer;
+}
+img:hover {
+    /*height: 50vh;*/
+    /*se pot scrie intr-un singur transform dar 
+    actiunile vor fi simultan*/
+    transform: rotate(-10deg);
+    transform: translate(-20px, -30px);
+    transform: scale(1.2);
+    opacity: 1;
+}
+article div {
+    display:inline-block;
+    vertical-align: middle;
+}
+article ul {
+    list-style-type: none;
+    vertical-align: middle;
+    margin-bottom: 3em;
+}
+article li {
+    padding: 1.5em;
+}
+input[type="button"] {
+    background-color:rgb(218, 162, 42);
+    color: white;
+    border-radius: 0.7em;
+    border: none;
+    padding: 0.5em 1em;
+    text-transform: uppercase;
+    /*il face clickable*/
+    cursor: pointer;
+}
+footer {
+    background-color: rgb(39, 39, 39);
+    text-align: center;
+    color: white;
+    padding: 1em 0;
+}
+p {
+    padding-bottom: 1em;
+}
+/*animatii*/
+

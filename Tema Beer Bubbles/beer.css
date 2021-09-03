@@ -1,0 +1,261 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    background-image: url(untitled.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav {
+    margin-top: 2em;
+    text-align: center;
+    margin-left: 9em;
+}
+a {
+    color:rgb(17, 17, 46);
+    font-size: 19px;
+    margin-right: 14em;
+    font-family: sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: uppercase;
+}
+p {
+    text-align: center;
+    margin: 200px 300px;
+    color:rgb(17, 17, 46);
+    font-size: 120px;
+    font-family: sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 450;
+}
+.bubbles {
+    width: 20%;
+    height: 100%;
+    z-index: 1;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    margin: 0 550px;
+}
+@keyframes animate {
+    0% {
+        bottom: -100px;
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(100px);
+    }     
+    100% {
+        bottom: 1300px;
+        transform: translateX(-200px);
+        transform: translateY(50px);
+    }
+}
+.bubble1 {
+    position: absolute;
+    bottom: 0;
+    left: 39.4em;
+    width: 40px;
+    height: 40px;
+    background: rgb(240, 43, 171);
+    border-radius: 50%;
+    animation: animate 10s infinite ease-in;
+}
+.bubble2 {
+    position: absolute;
+    bottom: 0;
+    left: 40.4em;
+    width: 30px;
+    height: 30px;
+    background: rgb(209, 33, 135);
+    border-radius: 50%;
+    animation: animate 7s infinite ease-in;
+}
+
+.bubble3 {
+    position: absolute;
+    bottom: 0;
+    left: 39.6em;
+    width: 20px;
+    height: 20px;
+    background:rgb(209, 33, 135);
+    border-radius: 50%;
+    animation: animate 12s infinite ease-in;
+}
+.bubble4 {
+    position: absolute;
+    bottom: 0;
+    left: 38em;
+    width: 50px;
+    height: 50px;
+    background: rgb(209, 33, 135);
+    border-radius: 50%;
+    animation: animate 5s infinite ease-in;
+}
+.bubble5 {
+    position: absolute;
+    bottom: 0;
+    left: 39em;
+    width: 29px;
+    height: 29px;
+    background: rgb(209, 33, 135);
+    border-radius: 50%;
+    animation: animate 6s infinite ease-in;
+}
+.bubble6 {
+    position: absolute;
+    bottom: 0;
+    left: 40em;
+    width: 23px;
+    height: 23px;
+    background: rgb(209, 33, 135);
+    border-radius: 50%;
+    animation: animate 14s infinite ease-in;
+}
+.bubble7 {
+    position: absolute;
+    bottom: 0;
+    left: 35.5em;
+    width: 14px;
+    height: 14px;
+    background:rgb(209, 33, 135);
+    border-radius: 50%;
+    animation: animate 16s infinite ease-in;
+}
+.bubble8 {
+    position: absolute;
+    bottom: 0;
+    left: 38.6em;
+    width: 35px;
+    height: 35px;
+    background: rgb(209, 33, 135);
+    border-radius: 50%;
+    animation: animate 8s infinite ease-in;
+}
+.bubble9 {
+    position: absolute;
+    bottom: 0;
+    left: 37.5em;
+    width: 41px;
+    height: 41px;
+    background: rgb(209, 33, 135);
+    border-radius: 50%;
+    animation: animate 5.3s infinite ease-in;
+}
+.bubble10 {
+    position: absolute;
+    bottom: 0;
+    left: 38.5em;
+    width: 43px;
+    height: 43px;
+    background: rgb(209, 33, 135);
+    border-radius: 50%;
+    animation: animate 11.2s infinite ease-in;
+}
+.bubble11 {
+    position: absolute;
+    bottom: 0;
+    left: 39.5em;
+    width: 44px;
+    height: 44px;
+    background: rgb(240, 43, 171);
+    border-radius: 50%;
+    animation: animate 10.1s infinite ease-in;
+}
+.bubble12 {
+    position: absolute;
+    bottom: 0;
+    left: 40.5em;
+    width: 49px;
+    height: 49px;
+    background: rgb(209, 33, 135);
+    border-radius: 50%;
+    animation: animate 7.9s infinite ease-in;
+}
+
+.bubble13 {
+    position: absolute;
+    bottom: 0;
+    left: 41.3em;
+    width: 51px;
+    height: 51px;
+    background:rgb(209, 33, 135);
+    border-radius: 50%;
+    animation: animate 12.4s infinite ease-in;
+}
+.bubble14 {
+    position: absolute;
+    bottom: 0;
+    left: 42.3em;
+    width: 42.3px;
+    height: 42.3px;
+    background: rgb(209, 33, 135);
+    border-radius: 50%;
+    animation: animate 5.3s infinite ease-in;
+}
+.bubble15 {
+    position: absolute;
+    bottom: 0;
+    left: 38.9em;
+    width: 21px;
+    height: 21px;
+    background: rgb(209, 33, 135);
+    border-radius: 50%;
+    animation: animate 6.7s infinite ease-in;
+}
+.bubble16 {
+    position: absolute;
+    bottom: 0;
+    left: 39.3em;
+    width: 36.2px;
+    height: 36.2px;
+    background: rgb(209, 33, 135);
+    border-radius: 50%;
+    animation: animate 14.1s infinite ease-in;
+}
+.bubble17 {
+    position: absolute;
+    bottom: 0;
+    left: 41.8em;
+    width: 47.3px;
+    height: 47.3px;
+    background:rgb(209, 33, 135);
+    border-radius: 50%;
+    animation: animate 16.1s infinite ease-in;
+}
+.bubble18 {
+    position: absolute;
+    bottom: 0;
+    left: 42.8em;
+    width: 48.2px;
+    height: 48.2px;
+    background: rgb(209, 33, 135);
+    border-radius: 50%;
+    animation: animate 8.1s infinite ease-in;
+}
+.bubble19 {
+    position: absolute;
+    bottom: 0;
+    left: 38.8em;
+    width: 41.6px;
+    height: 41.6px;
+    background: rgb(209, 33, 135);
+    border-radius: 50%;
+    animation: animate 5.5s infinite ease-in-out;
+}
+.bubble20 {
+    position: absolute;
+    bottom: 0;
+    left: 39.9em;
+    width: 52.1px;
+    height: 52.1px;
+    background: rgb(209, 33, 135);
+    border-radius: 50%;
+    animation: animate 11.3s infinite ease-in;
+}
+

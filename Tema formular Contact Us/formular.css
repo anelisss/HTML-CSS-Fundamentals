@@ -1,0 +1,52 @@
+
+input {
+    display: block;
+    margin: 1em 0 1em 0;
+    background:transparent;
+    border: none;
+    border-bottom: 2px solid;
+    color:rgba(238, 223, 223, 1);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.1em;
+    opacity: 50%;
+}
+nav {
+    font-family: 'Noto Sans JP', sans-serif;
+    padding: 0.3em 0 1em 0;
+    font-size: 2em;
+    display:inline;
+    text-align: center;
+}
+label {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.9em;
+}
+div {
+    margin: 0 40em 0 30em;
+}
+#caseta {
+    padding-bottom: 5em;
+    width: 17em;
+}
+.caseta {
+    width: 17em;
+}
+button {
+    background: rgb(228,12,114);
+    background: linear-gradient(31deg, rgba(228,12,114,1) 0%, rgba(228,12,114,1) 0%, rgba(232,110,59,1) 100%);
+    border-radius: 3em;
+    border: none;
+    color: white;
+    padding: 0.5em;
+    width: 12em;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+}
+.titlu {
+    position: relative;
+    margin: 0 40em 0 30em;
+}
+.continut {
+    position: absolute;
+    top: 5em;
+}
